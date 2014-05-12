@@ -1,0 +1,8 @@
+syntax: glob
+
+.idea		# phpshtorm
+vqmod/vqmod.log
+system/cache
+system/logs
+vqmod/vqcache
+image/cache

@@ -1,0 +1,29 @@
+.ui-carousel {
+	height: 160px;
+	margin: 0;
+	overflow: auto;
+	padding: 0;
+	position: relative; /*for ie7 to work e.g in html carousels*/
+	width: 190px!important;
+}
+
+.ui-carousel > .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ui-carousel > .wrapper > * {
+	display: block;
+	float: left;
+	height: 185px;
+	overflow: hidden;
+	width: 168px;	
+}
+.ui-carousel .slider-item.slider-item{
+	border: 3px solid #EEEEEE;
+	position:relative;
+}
+#carousel{ height: 580px !important;}
+.horizontal #carousel{ height: 188px !important; width:684px !important; }
+.horizontal_new_product #newproduct_slider_center.products_block li .product-block{ height:210px !important }
